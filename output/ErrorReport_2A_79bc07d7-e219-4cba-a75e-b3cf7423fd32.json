@@ -1,0 +1,3194 @@
+[
+    {
+        "row": 7,
+        "invoice": "25008754",
+        "gstin": "27AAEFJ7579D1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 8,
+        "invoice": "25008754",
+        "gstin": "27AAEFJ7579D1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 11,
+        "invoice": "25009376",
+        "gstin": "27AAEFJ7579D1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 12,
+        "invoice": "25009376",
+        "gstin": "27AAEFJ7579D1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 15,
+        "invoice": "25009959",
+        "gstin": "27AAEFJ7579D1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 18,
+        "invoice": "25010487",
+        "gstin": "27AAEFJ7579D1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 19,
+        "invoice": "25010487",
+        "gstin": "27AAEFJ7579D1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 22,
+        "invoice": "25011016",
+        "gstin": "27AAEFJ7579D1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 25,
+        "invoice": "088400",
+        "gstin": "27ACXPR6128D1Z4",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 26,
+        "invoice": "088400",
+        "gstin": "27ACXPR6128D1Z4",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 29,
+        "invoice": "089378",
+        "gstin": "27ACXPR6128D1Z4",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 32,
+        "invoice": "090931",
+        "gstin": "27ACXPR6128D1Z4",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 35,
+        "invoice": "25032650",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 36,
+        "invoice": "25032650",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 39,
+        "invoice": "25032961",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 40,
+        "invoice": "25032961",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 43,
+        "invoice": "25032981",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 46,
+        "invoice": "25033443",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 47,
+        "invoice": "25033443",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 50,
+        "invoice": "25033444",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 51,
+        "invoice": "25033444",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 54,
+        "invoice": "25033585",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 57,
+        "invoice": "25033853",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 60,
+        "invoice": "25034202",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 61,
+        "invoice": "25034202",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 62,
+        "invoice": "25034202",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 65,
+        "invoice": "25034233",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 68,
+        "invoice": "25034515",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 71,
+        "invoice": "25034783",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 72,
+        "invoice": "25034783",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 75,
+        "invoice": "25034829",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 78,
+        "invoice": "25035046",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 81,
+        "invoice": "25035500",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 84,
+        "invoice": "25035501",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 87,
+        "invoice": "25035844",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 88,
+        "invoice": "25035844",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 91,
+        "invoice": "25035936",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 94,
+        "invoice": "25036247",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 97,
+        "invoice": "25036248",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 98,
+        "invoice": "25036248",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 101,
+        "invoice": "25036249",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 104,
+        "invoice": "25036558",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 105,
+        "invoice": "25036558",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 108,
+        "invoice": "25036717",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 111,
+        "invoice": "25036978",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 114,
+        "invoice": "25037340",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 117,
+        "invoice": "25037342",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 118,
+        "invoice": "25037342",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 121,
+        "invoice": "25038464",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 124,
+        "invoice": "25038791",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 125,
+        "invoice": "25038791",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 126,
+        "invoice": "25038791",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 129,
+        "invoice": "25038793",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 132,
+        "invoice": "25039154",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 135,
+        "invoice": "25039227",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 138,
+        "invoice": "25039485",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 139,
+        "invoice": "25039485",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 142,
+        "invoice": "25039514",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 145,
+        "invoice": "25039936",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 148,
+        "invoice": "25039937",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 149,
+        "invoice": "25039937",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 152,
+        "invoice": "25040268",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 153,
+        "invoice": "25040268",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 156,
+        "invoice": "25040598",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 157,
+        "invoice": "25040598",
+        "gstin": "27AAIFA6351J1ZB",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 160,
+        "invoice": "ABT04699",
+        "gstin": "27CYNPS4448H1ZR",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 163,
+        "invoice": "ABT05294",
+        "gstin": "27CYNPS4448H1ZR",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 166,
+        "invoice": "ABT05527",
+        "gstin": "27CYNPS4448H1ZR",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 169,
+        "invoice": "IN10030522512534",
+        "gstin": "27CYNPS4448H1ZR",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 172,
+        "invoice": "IN10030522513292",
+        "gstin": "27CYNPS4448H1ZR",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 175,
+        "invoice": "IN10030522514538",
+        "gstin": "27CYNPS4448H1ZR",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 178,
+        "invoice": "U0225212906",
+        "gstin": "27AAPCM5366B1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 179,
+        "invoice": "U0225212906",
+        "gstin": "27AAPCM5366B1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 182,
+        "invoice": "U0225212907",
+        "gstin": "27AAPCM5366B1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 185,
+        "invoice": "U0225214696",
+        "gstin": "27AAPCM5366B1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 188,
+        "invoice": "U0225218723",
+        "gstin": "27AAPCM5366B1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 189,
+        "invoice": "U0225218723",
+        "gstin": "27AAPCM5366B1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 192,
+        "invoice": "U0225218724",
+        "gstin": "27AAPCM5366B1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 193,
+        "invoice": "U0225218724",
+        "gstin": "27AAPCM5366B1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 196,
+        "invoice": "U0225224616",
+        "gstin": "27AAPCM5366B1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 199,
+        "invoice": "U0225230944",
+        "gstin": "27AAPCM5366B1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 200,
+        "invoice": "U0225230944",
+        "gstin": "27AAPCM5366B1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 203,
+        "invoice": "U0225236000",
+        "gstin": "27AAPCM5366B1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 206,
+        "invoice": "U0225244667",
+        "gstin": "27AAPCM5366B1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 209,
+        "invoice": "U0225247072",
+        "gstin": "27AAPCM5366B1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 212,
+        "invoice": "U0225247073",
+        "gstin": "27AAPCM5366B1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 215,
+        "invoice": "U0225251683",
+        "gstin": "27AAPCM5366B1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 216,
+        "invoice": "U0225251683",
+        "gstin": "27AAPCM5366B1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 219,
+        "invoice": "25055618",
+        "gstin": "27AACFA1119N1ZL",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 222,
+        "invoice": "25059107",
+        "gstin": "27AACFA1119N1ZL",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 223,
+        "invoice": "25059107",
+        "gstin": "27AACFA1119N1ZL",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 226,
+        "invoice": "25065650",
+        "gstin": "27AACFA1119N1ZL",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 352,
+        "invoice": "278843",
+        "gstin": "27ABGFS8274B1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 355,
+        "invoice": "279691",
+        "gstin": "27ABGFS8274B1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 356,
+        "invoice": "279691",
+        "gstin": "27ABGFS8274B1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 357,
+        "invoice": "279691",
+        "gstin": "27ABGFS8274B1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 360,
+        "invoice": "280605",
+        "gstin": "27ABGFS8274B1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 361,
+        "invoice": "280605",
+        "gstin": "27ABGFS8274B1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 364,
+        "invoice": "281382",
+        "gstin": "27ABGFS8274B1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 365,
+        "invoice": "281382",
+        "gstin": "27ABGFS8274B1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 368,
+        "invoice": "281625",
+        "gstin": "27ABGFS8274B1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 371,
+        "invoice": "283110",
+        "gstin": "27ABGFS8274B1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 372,
+        "invoice": "283110",
+        "gstin": "27ABGFS8274B1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 375,
+        "invoice": "284433",
+        "gstin": "27ABGFS8274B1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 376,
+        "invoice": "284433",
+        "gstin": "27ABGFS8274B1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 377,
+        "invoice": "284433",
+        "gstin": "27ABGFS8274B1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 380,
+        "invoice": "E945512971",
+        "gstin": "27AAAPA8941L1ZM",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 381,
+        "invoice": "E945512971",
+        "gstin": "27AAAPA8941L1ZM",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 384,
+        "invoice": "E945513646",
+        "gstin": "27AAAPA8941L1ZM",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 387,
+        "invoice": "E945514712",
+        "gstin": "27AAAPA8941L1ZM",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 390,
+        "invoice": "S/3276",
+        "gstin": "27AMIPK1498A1Z4",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 391,
+        "invoice": "S/3276",
+        "gstin": "27AMIPK1498A1Z4",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 392,
+        "invoice": "S/3276",
+        "gstin": "27AMIPK1498A1Z4",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 393,
+        "invoice": "S/3276",
+        "gstin": "27AMIPK1498A1Z4",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 396,
+        "invoice": "S/3591",
+        "gstin": "27AMIPK1498A1Z4",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 397,
+        "invoice": "S/3591",
+        "gstin": "27AMIPK1498A1Z4",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 398,
+        "invoice": "S/3591",
+        "gstin": "27AMIPK1498A1Z4",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 483,
+        "invoice": "JJME2514493",
+        "gstin": "27ABQPM6307F1ZH",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 486,
+        "invoice": "JJME2515348",
+        "gstin": "27ABQPM6307F1ZH",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 487,
+        "invoice": "JJME2515348",
+        "gstin": "27ABQPM6307F1ZH",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 490,
+        "invoice": "JJME2517439",
+        "gstin": "27ABQPM6307F1ZH",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 491,
+        "invoice": "JJME2517439",
+        "gstin": "27ABQPM6307F1ZH",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 492,
+        "invoice": "JJME2517439",
+        "gstin": "27ABQPM6307F1ZH",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 671,
+        "invoice": "S/240854",
+        "gstin": "27AAHCG0228L1ZK",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 674,
+        "invoice": "S/241474",
+        "gstin": "27AAHCG0228L1ZK",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 677,
+        "invoice": "S/241682",
+        "gstin": "27AAHCG0228L1ZK",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 680,
+        "invoice": "S/241778",
+        "gstin": "27AAHCG0228L1ZK",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 683,
+        "invoice": "S/245741",
+        "gstin": "27AAHCG0228L1ZK",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 684,
+        "invoice": "S/245741",
+        "gstin": "27AAHCG0228L1ZK",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 687,
+        "invoice": "S/246198",
+        "gstin": "27AAHCG0228L1ZK",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 690,
+        "invoice": "S/251638",
+        "gstin": "27AAHCG0228L1ZK",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 693,
+        "invoice": "S/251639",
+        "gstin": "27AAHCG0228L1ZK",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 696,
+        "invoice": "S/251640",
+        "gstin": "27AAHCG0228L1ZK",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 699,
+        "invoice": "S/259647",
+        "gstin": "27AAHCG0228L1ZK",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 702,
+        "invoice": "S/272245",
+        "gstin": "27AAHCG0228L1ZK",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 705,
+        "invoice": "S/282006",
+        "gstin": "27AAHCG0228L1ZK",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 706,
+        "invoice": "S/282006",
+        "gstin": "27AAHCG0228L1ZK",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 709,
+        "invoice": "S/288514",
+        "gstin": "27AAHCG0228L1ZK",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 710,
+        "invoice": "S/288514",
+        "gstin": "27AAHCG0228L1ZK",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 713,
+        "invoice": "S/292165",
+        "gstin": "27AAHCG0228L1ZK",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 716,
+        "invoice": "S/294779",
+        "gstin": "27AAHCG0228L1ZK",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 749,
+        "invoice": "MSE98393",
+        "gstin": "27ABEFA2811N1ZG",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 752,
+        "invoice": "AA2002",
+        "gstin": "27BWPPK0309A1ZW",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 755,
+        "invoice": "AA2077",
+        "gstin": "27BWPPK0309A1ZW",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 758,
+        "invoice": "AA2122",
+        "gstin": "27BWPPK0309A1ZW",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 761,
+        "invoice": "AA2201",
+        "gstin": "27BWPPK0309A1ZW",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 764,
+        "invoice": "AA2347",
+        "gstin": "27BWPPK0309A1ZW",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 765,
+        "invoice": "AA2347",
+        "gstin": "27BWPPK0309A1ZW",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 768,
+        "invoice": "AA2403",
+        "gstin": "27BWPPK0309A1ZW",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 771,
+        "invoice": "HAL/25-26/20278",
+        "gstin": "27BWPPK0309A1ZW",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 772,
+        "invoice": "HAL/25-26/20278",
+        "gstin": "27BWPPK0309A1ZW",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 833,
+        "invoice": "S/11400/25-26",
+        "gstin": "27AAJCC8507G1ZJ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 834,
+        "invoice": "S/11400/25-26",
+        "gstin": "27AAJCC8507G1ZJ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 837,
+        "invoice": "MLB115622531424",
+        "gstin": "27DXZPS6049J2Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 838,
+        "invoice": "MLB115622531424",
+        "gstin": "27DXZPS6049J2Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 841,
+        "invoice": "MLB115622533070",
+        "gstin": "27DXZPS6049J2Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 842,
+        "invoice": "MLB115622533070",
+        "gstin": "27DXZPS6049J2Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 843,
+        "invoice": "MLB115622533070",
+        "gstin": "27DXZPS6049J2Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 846,
+        "invoice": "MLB115622534715",
+        "gstin": "27DXZPS6049J2Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 847,
+        "invoice": "MLB115622534715",
+        "gstin": "27DXZPS6049J2Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 850,
+        "invoice": "MLB115622538172",
+        "gstin": "27DXZPS6049J2Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 851,
+        "invoice": "MLB115622538172",
+        "gstin": "27DXZPS6049J2Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 852,
+        "invoice": "MLB115622538172",
+        "gstin": "27DXZPS6049J2Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 855,
+        "invoice": "R/100549",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 856,
+        "invoice": "R/100549",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 857,
+        "invoice": "R/100549",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 860,
+        "invoice": "R/100550",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 863,
+        "invoice": "R/102501",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 864,
+        "invoice": "R/102501",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 867,
+        "invoice": "R/103520",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 868,
+        "invoice": "R/103520",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 871,
+        "invoice": "R/103521",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 874,
+        "invoice": "R/104587",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 875,
+        "invoice": "R/104587",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 878,
+        "invoice": "R/105797",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 879,
+        "invoice": "R/105797",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 882,
+        "invoice": "R/105798",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 885,
+        "invoice": "R/109508",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 886,
+        "invoice": "R/109508",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 889,
+        "invoice": "R/110675",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 890,
+        "invoice": "R/110675",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 893,
+        "invoice": "R/111802",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 894,
+        "invoice": "R/111802",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 897,
+        "invoice": "R/112558",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 898,
+        "invoice": "R/112558",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 901,
+        "invoice": "R/112787",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 902,
+        "invoice": "R/112787",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 905,
+        "invoice": "R/113491",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 906,
+        "invoice": "R/113491",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 909,
+        "invoice": "R/113535",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 910,
+        "invoice": "R/113535",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 913,
+        "invoice": "R/114742",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 916,
+        "invoice": "R/115499",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 917,
+        "invoice": "R/115499",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 920,
+        "invoice": "R/116458",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 921,
+        "invoice": "R/116458",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 924,
+        "invoice": "R/94207",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 925,
+        "invoice": "R/94207",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 928,
+        "invoice": "R/95087",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 929,
+        "invoice": "R/95087",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 932,
+        "invoice": "R/96531",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 933,
+        "invoice": "R/96531",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 936,
+        "invoice": "R/97416",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 939,
+        "invoice": "R/98564",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 942,
+        "invoice": "R/99561",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 943,
+        "invoice": "R/99561",
+        "gstin": "27AAZCS8257R1ZT",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1045,
+        "invoice": "25/26-R/22135",
+        "gstin": "27AASPV9494R1ZX",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1048,
+        "invoice": "25/26-R/22198",
+        "gstin": "27AASPV9494R1ZX",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1049,
+        "invoice": "25/26-R/22198",
+        "gstin": "27AASPV9494R1ZX",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1052,
+        "invoice": "25/26-R/23557",
+        "gstin": "27AASPV9494R1ZX",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1053,
+        "invoice": "25/26-R/23557",
+        "gstin": "27AASPV9494R1ZX",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1056,
+        "invoice": "25/26-R/23607",
+        "gstin": "27AASPV9494R1ZX",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1059,
+        "invoice": "25/26-R/24802",
+        "gstin": "27AASPV9494R1ZX",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1060,
+        "invoice": "25/26-R/24802",
+        "gstin": "27AASPV9494R1ZX",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1063,
+        "invoice": "25/26-R/26161",
+        "gstin": "27AASPV9494R1ZX",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1064,
+        "invoice": "25/26-R/26161",
+        "gstin": "27AASPV9494R1ZX",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1067,
+        "invoice": "25/26-R/26934",
+        "gstin": "27AASPV9494R1ZX",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1068,
+        "invoice": "25/26-R/26934",
+        "gstin": "27AASPV9494R1ZX",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1071,
+        "invoice": "25/26-R/27330",
+        "gstin": "27AASPV9494R1ZX",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1072,
+        "invoice": "25/26-R/27330",
+        "gstin": "27AASPV9494R1ZX",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1090,
+        "invoice": "25035972",
+        "gstin": "27AABFG1130G1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1091,
+        "invoice": "25035972",
+        "gstin": "27AABFG1130G1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1094,
+        "invoice": "25035973",
+        "gstin": "27AABFG1130G1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1095,
+        "invoice": "25035973",
+        "gstin": "27AABFG1130G1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1098,
+        "invoice": "25038082",
+        "gstin": "27AABFG1130G1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1099,
+        "invoice": "25038082",
+        "gstin": "27AABFG1130G1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1102,
+        "invoice": "25038083",
+        "gstin": "27AABFG1130G1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1103,
+        "invoice": "25038083",
+        "gstin": "27AABFG1130G1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1106,
+        "invoice": "25038106",
+        "gstin": "27AABFG1130G1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1109,
+        "invoice": "25042339",
+        "gstin": "27AABFG1130G1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1110,
+        "invoice": "25042339",
+        "gstin": "27AABFG1130G1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1111,
+        "invoice": "25042339",
+        "gstin": "27AABFG1130G1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1114,
+        "invoice": "25042340",
+        "gstin": "27AABFG1130G1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1115,
+        "invoice": "25042340",
+        "gstin": "27AABFG1130G1Z0",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1160,
+        "invoice": "49346",
+        "gstin": "27AEYPP9136L1ZE",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1163,
+        "invoice": "49556",
+        "gstin": "27AEYPP9136L1ZE",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1164,
+        "invoice": "49556",
+        "gstin": "27AEYPP9136L1ZE",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1167,
+        "invoice": "R/31844",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1168,
+        "invoice": "R/31844",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1171,
+        "invoice": "R/31845",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1172,
+        "invoice": "R/31845",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1175,
+        "invoice": "R/32142",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1176,
+        "invoice": "R/32142",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1179,
+        "invoice": "R/32143",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1180,
+        "invoice": "R/32143",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1183,
+        "invoice": "R/32167",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1184,
+        "invoice": "R/32167",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1187,
+        "invoice": "R/32178",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1188,
+        "invoice": "R/32178",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1191,
+        "invoice": "R/32628",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1192,
+        "invoice": "R/32628",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1195,
+        "invoice": "R/32629",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1196,
+        "invoice": "R/32629",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1199,
+        "invoice": "R/32648",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1200,
+        "invoice": "R/32648",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1203,
+        "invoice": "R/33001",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1206,
+        "invoice": "R/33287",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1209,
+        "invoice": "R/33288",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1212,
+        "invoice": "R/33309",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1215,
+        "invoice": "R/33321",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1218,
+        "invoice": "R/33662",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1221,
+        "invoice": "R/33673",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1224,
+        "invoice": "R/33992",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1225,
+        "invoice": "R/33992",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1228,
+        "invoice": "R/33993",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1229,
+        "invoice": "R/33993",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1232,
+        "invoice": "R/34303",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1233,
+        "invoice": "R/34303",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1236,
+        "invoice": "R/34331",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1237,
+        "invoice": "R/34331",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1240,
+        "invoice": "R/34777",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1243,
+        "invoice": "R/34778",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1246,
+        "invoice": "R/35129",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1247,
+        "invoice": "R/35129",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1250,
+        "invoice": "R/35130",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1253,
+        "invoice": "R/35473",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1256,
+        "invoice": "R/35474",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1257,
+        "invoice": "R/35474",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1260,
+        "invoice": "R/35796",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1263,
+        "invoice": "R/35839",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1266,
+        "invoice": "R/36042",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1267,
+        "invoice": "R/36042",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1270,
+        "invoice": "R/36043",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1271,
+        "invoice": "R/36043",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1274,
+        "invoice": "R/36266",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1277,
+        "invoice": "R/36267",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1278,
+        "invoice": "R/36267",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1281,
+        "invoice": "R/36686",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1282,
+        "invoice": "R/36686",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1285,
+        "invoice": "R/36687",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1288,
+        "invoice": "R/37528",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1289,
+        "invoice": "R/37528",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1292,
+        "invoice": "R/37911",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1293,
+        "invoice": "R/37911",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1296,
+        "invoice": "R/38176",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1299,
+        "invoice": "R/38187",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1300,
+        "invoice": "R/38187",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1303,
+        "invoice": "R/38533",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1304,
+        "invoice": "R/38533",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1307,
+        "invoice": "R/38534",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1310,
+        "invoice": "R/38780",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1313,
+        "invoice": "R/38793",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1316,
+        "invoice": "R/38804",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1317,
+        "invoice": "R/38804",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1320,
+        "invoice": "R/39163",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1323,
+        "invoice": "R/39164",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1326,
+        "invoice": "R/39458",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1327,
+        "invoice": "R/39458",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1328,
+        "invoice": "R/39458",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1331,
+        "invoice": "R/39755",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1332,
+        "invoice": "R/39755",
+        "gstin": "27AAAFK3060G1ZO",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1368,
+        "invoice": "25018986",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1369,
+        "invoice": "25018986",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1372,
+        "invoice": "25018997",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1373,
+        "invoice": "25018997",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1376,
+        "invoice": "25019164",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1379,
+        "invoice": "25019577",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1380,
+        "invoice": "25019577",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1383,
+        "invoice": "25020121",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1384,
+        "invoice": "25020121",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1387,
+        "invoice": "25020341",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1388,
+        "invoice": "25020341",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1391,
+        "invoice": "25020463",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1394,
+        "invoice": "25020752",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1395,
+        "invoice": "25020752",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1398,
+        "invoice": "25021875",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1401,
+        "invoice": "25022312",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1402,
+        "invoice": "25022312",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1405,
+        "invoice": "25022494",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1408,
+        "invoice": "25022729",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1411,
+        "invoice": "25023080",
+        "gstin": "27AABFJ0080G1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1414,
+        "invoice": "25013259",
+        "gstin": "27AAAFZ0586E1Z4",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1417,
+        "invoice": "25013974",
+        "gstin": "27AAAFZ0586E1Z4",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1418,
+        "invoice": "25013974",
+        "gstin": "27AAAFZ0586E1Z4",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1421,
+        "invoice": "25034855",
+        "gstin": "27AAAFN3201G1ZU",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1424,
+        "invoice": "25035849",
+        "gstin": "27AAAFN3201G1ZU",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1427,
+        "invoice": "25035959",
+        "gstin": "27AAAFN3201G1ZU",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1430,
+        "invoice": "25037036",
+        "gstin": "27AAAFN3201G1ZU",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1433,
+        "invoice": "25038031",
+        "gstin": "27AAAFN3201G1ZU",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1436,
+        "invoice": "25038166",
+        "gstin": "27AAAFN3201G1ZU",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1439,
+        "invoice": "25039179",
+        "gstin": "27AAAFN3201G1ZU",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1442,
+        "invoice": "25040038",
+        "gstin": "27AAAFN3201G1ZU",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1445,
+        "invoice": "25041261",
+        "gstin": "27AAAFN3201G1ZU",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1446,
+        "invoice": "25041261",
+        "gstin": "27AAAFN3201G1ZU",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1449,
+        "invoice": "25042159",
+        "gstin": "27AAAFN3201G1ZU",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1468,
+        "invoice": "FP/1724",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1471,
+        "invoice": "FP/1902",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1474,
+        "invoice": "FP/2031",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1477,
+        "invoice": "S/38690",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1480,
+        "invoice": "S/38701",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1483,
+        "invoice": "S/38705",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1486,
+        "invoice": "S/39030",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1487,
+        "invoice": "S/39030",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1488,
+        "invoice": "S/39030",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1491,
+        "invoice": "S/39031",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1492,
+        "invoice": "S/39031",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1493,
+        "invoice": "S/39031",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1496,
+        "invoice": "S/39032",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1497,
+        "invoice": "S/39032",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1500,
+        "invoice": "S/40006",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1501,
+        "invoice": "S/40006",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1504,
+        "invoice": "S/40049",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1507,
+        "invoice": "S/41164",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1508,
+        "invoice": "S/41164",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1511,
+        "invoice": "S/41347",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1512,
+        "invoice": "S/41347",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1515,
+        "invoice": "S/42675",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1516,
+        "invoice": "S/42675",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1517,
+        "invoice": "S/42675",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1520,
+        "invoice": "S/42676",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1523,
+        "invoice": "S/42677",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1524,
+        "invoice": "S/42677",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1527,
+        "invoice": "S/42764",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1530,
+        "invoice": "S/43434",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1531,
+        "invoice": "S/43434",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1534,
+        "invoice": "S/45472",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1537,
+        "invoice": "S/45874",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1538,
+        "invoice": "S/45874",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1541,
+        "invoice": "S/45875",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1542,
+        "invoice": "S/45875",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1545,
+        "invoice": "S/46675",
+        "gstin": "27AGBPC4104G1Z3",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1548,
+        "invoice": "SN/5157",
+        "gstin": "27AAMFH6862K1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1549,
+        "invoice": "SN/5157",
+        "gstin": "27AAMFH6862K1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1552,
+        "invoice": "SN/5520",
+        "gstin": "27AAMFH6862K1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1555,
+        "invoice": "SN/6017",
+        "gstin": "27AAMFH6862K1ZQ",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1558,
+        "invoice": "R/50332",
+        "gstin": "27ABDFS8057R1Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1559,
+        "invoice": "R/50332",
+        "gstin": "27ABDFS8057R1Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1562,
+        "invoice": "R/53028",
+        "gstin": "27ABDFS8057R1Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1563,
+        "invoice": "R/53028",
+        "gstin": "27ABDFS8057R1Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1566,
+        "invoice": "R/56720",
+        "gstin": "27ABDFS8057R1Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1569,
+        "invoice": "R/59291",
+        "gstin": "27ABDFS8057R1Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1570,
+        "invoice": "R/59291",
+        "gstin": "27ABDFS8057R1Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1573,
+        "invoice": "R/59950",
+        "gstin": "27ABDFS8057R1Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1574,
+        "invoice": "R/59950",
+        "gstin": "27ABDFS8057R1Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1577,
+        "invoice": "R/61734",
+        "gstin": "27ABDFS8057R1Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1580,
+        "invoice": "AT/217446",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1583,
+        "invoice": "AT/220356",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1584,
+        "invoice": "AT/220356",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1587,
+        "invoice": "AT/228222",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1588,
+        "invoice": "AT/228222",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1591,
+        "invoice": "AT/232405",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1592,
+        "invoice": "AT/232405",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1593,
+        "invoice": "AT/232405",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1594,
+        "invoice": "AT/232405",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1597,
+        "invoice": "AT/234431",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1598,
+        "invoice": "AT/234431",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1601,
+        "invoice": "AT/240392",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1604,
+        "invoice": "AT/244417",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1605,
+        "invoice": "AT/244417",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1608,
+        "invoice": "AT/244425",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1609,
+        "invoice": "AT/244425",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1612,
+        "invoice": "AT/248216",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1615,
+        "invoice": "AT/250332",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1618,
+        "invoice": "AT/254764",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1619,
+        "invoice": "AT/254764",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1622,
+        "invoice": "AT/258993",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1623,
+        "invoice": "AT/258993",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1626,
+        "invoice": "AT/260854",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1627,
+        "invoice": "AT/260854",
+        "gstin": "27AAFCA0512M1ZV",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1630,
+        "invoice": "CD/70823",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1631,
+        "invoice": "CD/70823",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1634,
+        "invoice": "CD/71624",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1637,
+        "invoice": "CD/73360",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1638,
+        "invoice": "CD/73360",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1641,
+        "invoice": "CD/75527",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1642,
+        "invoice": "CD/75527",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1645,
+        "invoice": "CD/75528",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1648,
+        "invoice": "CD/76177",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1649,
+        "invoice": "CD/76177",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1652,
+        "invoice": "CD/77785",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1653,
+        "invoice": "CD/77785",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1654,
+        "invoice": "CD/77785",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1657,
+        "invoice": "CD/79085",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1658,
+        "invoice": "CD/79085",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1661,
+        "invoice": "CD/79632",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1662,
+        "invoice": "CD/79632",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1665,
+        "invoice": "CD/83546",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1668,
+        "invoice": "CD/84328",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1671,
+        "invoice": "CD/85938",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1674,
+        "invoice": "CD/87453",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1675,
+        "invoice": "CD/87453",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1676,
+        "invoice": "CD/87453",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1679,
+        "invoice": "CD/87482",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1680,
+        "invoice": "CD/87482",
+        "gstin": "27ABGPJ4281M1ZA",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1700,
+        "invoice": "F092525-A0092129",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1703,
+        "invoice": "F092525-A0092640",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1706,
+        "invoice": "F092525-A0093226",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1709,
+        "invoice": "F092525-A0093591",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1712,
+        "invoice": "F092525-A0095232",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1715,
+        "invoice": "F092525-A0095246",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1718,
+        "invoice": "F092525-A0095807",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1719,
+        "invoice": "F092525-A0095807",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1722,
+        "invoice": "F092525-A0096221",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1725,
+        "invoice": "F092525-A0096864",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1726,
+        "invoice": "F092525-A0096864",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1727,
+        "invoice": "F092525-A0096864",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1730,
+        "invoice": "F092525-A0097084",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1733,
+        "invoice": "F092525-A0097466",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1734,
+        "invoice": "F092525-A0097466",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1737,
+        "invoice": "F092525-A0097534",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1738,
+        "invoice": "F092525-A0097534",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1739,
+        "invoice": "F092525-A0097534",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1742,
+        "invoice": "F092525-A0098002",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1745,
+        "invoice": "F092525-A0098423",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1748,
+        "invoice": "F092525-A0099342",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1751,
+        "invoice": "F092525-A0099465",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1754,
+        "invoice": "F092525-A0100619",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1757,
+        "invoice": "F092525-A0100621",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1760,
+        "invoice": "F092525-A0101912",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1761,
+        "invoice": "F092525-A0101912",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1764,
+        "invoice": "F092525-A0102316",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1767,
+        "invoice": "F092525-A0102318",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1770,
+        "invoice": "F092525-A0103141",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1773,
+        "invoice": "F092525-A0103257",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1774,
+        "invoice": "F092525-A0103257",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1775,
+        "invoice": "F092525-A0103257",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1778,
+        "invoice": "F092525-A0103592",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1779,
+        "invoice": "F092525-A0103592",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1782,
+        "invoice": "F092525-A0103612",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1783,
+        "invoice": "F092525-A0103612",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1786,
+        "invoice": "F092525-A0105073",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1789,
+        "invoice": "F092525-A0105586",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1792,
+        "invoice": "F092525-A0105856",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1793,
+        "invoice": "F092525-A0105856",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1796,
+        "invoice": "F092525-A0107699",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1799,
+        "invoice": "F092525-A0107886",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1802,
+        "invoice": "F092525-A0109898",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1803,
+        "invoice": "F092525-A0109898",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1806,
+        "invoice": "F092525-A0110244",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1809,
+        "invoice": "F092525-A0111436",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1812,
+        "invoice": "F092525-A0111828",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1813,
+        "invoice": "F092525-A0111828",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1816,
+        "invoice": "F092525-A0113407",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1819,
+        "invoice": "F092525-A0114221",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1820,
+        "invoice": "F092525-A0114221",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1823,
+        "invoice": "F092525-A0114569",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1826,
+        "invoice": "F092525-A0114803",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1827,
+        "invoice": "F092525-A0114803",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1828,
+        "invoice": "F092525-A0114803",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1831,
+        "invoice": "F092525-A0115882",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1834,
+        "invoice": "F092525-A0115895",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1837,
+        "invoice": "F092525-A0116154",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1840,
+        "invoice": "F092525-A0116159",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1843,
+        "invoice": "F092525-A0116716",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1844,
+        "invoice": "F092525-A0116716",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1847,
+        "invoice": "F092525-A0117230",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1850,
+        "invoice": "F092525-A0117684",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1851,
+        "invoice": "F092525-A0117684",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1854,
+        "invoice": "F092525-A0117967",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1855,
+        "invoice": "F092525-A0117967",
+        "gstin": "27AARCA8823H1Z8",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1858,
+        "invoice": "CGVIR-25-I059132",
+        "gstin": "27AABCC7475M1Z5",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1859,
+        "invoice": "CGVIR-25-I059132",
+        "gstin": "27AABCC7475M1Z5",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1862,
+        "invoice": "CGVIR-25-I060997",
+        "gstin": "27AABCC7475M1Z5",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1865,
+        "invoice": "CGVIR-25-I062822",
+        "gstin": "27AABCC7475M1Z5",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1868,
+        "invoice": "CGVIR-25-I064511",
+        "gstin": "27AABCC7475M1Z5",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1871,
+        "invoice": "CGVIR-25-I066242",
+        "gstin": "27AABCC7475M1Z5",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1872,
+        "invoice": "CGVIR-25-I066242",
+        "gstin": "27AABCC7475M1Z5",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1875,
+        "invoice": "CGVIR-25-I067182",
+        "gstin": "27AABCC7475M1Z5",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1878,
+        "invoice": "CGVIR-25-I069053",
+        "gstin": "27AABCC7475M1Z5",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1879,
+        "invoice": "CGVIR-25-I069053",
+        "gstin": "27AABCC7475M1Z5",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1882,
+        "invoice": "CGVIR-25-I070305",
+        "gstin": "27AABCC7475M1Z5",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1883,
+        "invoice": "CGVIR-25-I070305",
+        "gstin": "27AABCC7475M1Z5",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1886,
+        "invoice": "CGVIR-25-I071208",
+        "gstin": "27AABCC7475M1Z5",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1889,
+        "invoice": "CGVIR-25-I072108",
+        "gstin": "27AABCC7475M1Z5",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1890,
+        "invoice": "CGVIR-25-I072108",
+        "gstin": "27AABCC7475M1Z5",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1922,
+        "invoice": "S/3058",
+        "gstin": "27BUGPS4360G1ZE",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1923,
+        "invoice": "S/3058",
+        "gstin": "27BUGPS4360G1ZE",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1924,
+        "invoice": "S/3058",
+        "gstin": "27BUGPS4360G1ZE",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1925,
+        "invoice": "S/3058",
+        "gstin": "27BUGPS4360G1ZE",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1928,
+        "invoice": "DR252626815370",
+        "gstin": "29AACCF1132H2ZX",
+        "error": "Inter-state transaction with IGST=7.47 is not supported by Tally template (no IGST columns); GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1931,
+        "invoice": "P252614265545",
+        "gstin": "29AACCF1132H2ZX",
+        "error": "Inter-state transaction with IGST=187.26 is not supported by Tally template (no IGST columns); GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 1934,
+        "invoice": "VA252675678744",
+        "gstin": "29AACCF1132H2ZX",
+        "error": "Inter-state transaction with IGST=2.9 is not supported by Tally template (no IGST columns); GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    }
+]

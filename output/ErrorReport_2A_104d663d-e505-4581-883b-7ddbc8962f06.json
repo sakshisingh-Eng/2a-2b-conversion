@@ -1,0 +1,20 @@
+[
+    {
+        "row": 1928,
+        "invoice": "DR252626815370",
+        "gstin": "29AACCF1132H2ZX",
+        "error": "Inter-state transaction with IGST=7.47 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 1931,
+        "invoice": "P252614265545",
+        "gstin": "29AACCF1132H2ZX",
+        "error": "Inter-state transaction with IGST=187.26 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 1934,
+        "invoice": "VA252675678744",
+        "gstin": "29AACCF1132H2ZX",
+        "error": "Inter-state transaction with IGST=2.9 is not supported by Tally template (no IGST columns)"
+    }
+]

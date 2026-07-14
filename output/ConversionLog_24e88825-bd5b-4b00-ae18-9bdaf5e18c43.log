@@ -1,0 +1,40 @@
+2026-07-14 10:53:53,166 [INFO] converter.parser_2b: Loading GSTR-2B workbook from D:\CA-RMHStaffPortal\2A-2B convertion\uploads\input_2b_24e88825-bd5b-4b00-ae18-9bdaf5e18c43.xlsx...
+2026-07-14 10:53:53,342 [INFO] converter.parser_2b: Resolved column map: {'gstin': 0, 'trade_name': 1, 'invoice_num': 2, 'invoice_type': 3, 'invoice_date': 4, 'invoice_value': 5, 'place_of_supply': 6, 'reverse_charge': 7, 'taxable_value': 8, 'igst': 9, 'cgst': 10, 'sgst': 11, 'cess': 12}. Data starts at row index 10.
+2026-07-14 10:53:53,385 [INFO] converter.parser_2b: Finished parsing. Extracted 45 active rows from GSTR-2B.
+2026-07-14 10:54:02,305 [WARNING] gst_lookup: 2 GSTINs still unresolved, will retry: ['27BPAPA1880C2ZG', '24AAHFS3107M1Z6']
+2026-07-14 10:54:07,306 [WARNING] converter.validator: Row 11 (Invoice: RKG25110217, GSTIN: 24AACCE1602K1Z3) failed validation: Inter-state transaction with IGST=20.0 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,306 [WARNING] converter.validator: Row 12 (Invoice: RKG25110311, GSTIN: 24AACCE1602K1Z3) failed validation: Inter-state transaction with IGST=15.0 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,306 [WARNING] converter.validator: Row 13 (Invoice: RKG25110512, GSTIN: 24AACCE1602K1Z3) failed validation: Inter-state transaction with IGST=20.0 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,307 [WARNING] converter.validator: Row 14 (Invoice: RKT25110073, GSTIN: 24AACCE1602K1Z3) failed validation: Inter-state transaction with IGST=15.0 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,307 [WARNING] converter.validator: Row 15 (Invoice: RKT25110451, GSTIN: 24AACCE1602K1Z3) failed validation: Inter-state transaction with IGST=32.5 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,307 [WARNING] converter.validator: Row 17 (Invoice: 2526270, GSTIN: 24ADXFS1837K1ZF) failed validation: Inter-state transaction with IGST=2402.1 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,307 [WARNING] converter.validator: Row 21 (Invoice: GT/184, GSTIN: 24AAEFV0191M1Z0) failed validation: Inter-state transaction with IGST=6790.68 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,308 [WARNING] converter.validator: Row 22 (Invoice: 784/2025-26, GSTIN: 24ADKFS9502N1ZK) failed validation: Inter-state transaction with IGST=1377.0 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,308 [WARNING] converter.validator: Row 24 (Invoice: 3319, GSTIN: 03AABFR7311L1ZD) failed validation: Inter-state transaction with IGST=6279.0 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,308 [WARNING] converter.validator: Row 31 (Invoice: GT/37, GSTIN: 24AAHFJ5991L1ZT) failed validation: Inter-state transaction with IGST=18000.0 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,308 [WARNING] converter.validator: Row 35 (Invoice: GT/741, GSTIN: 24ABUPD5630N1ZB) failed validation: Inter-state transaction with IGST=1745.03 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,308 [WARNING] converter.validator: Row 38 (Invoice: GT/40, GSTIN: 24AAHFJ5991L1ZT) failed validation: Inter-state transaction with IGST=576.0 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,309 [WARNING] converter.validator: Row 39 (Invoice: GT/41, GSTIN: 24AAHFJ5991L1ZT) failed validation: Inter-state transaction with IGST=281.0 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,309 [WARNING] converter.validator: Row 40 (Invoice: GT/42, GSTIN: 24AAHFJ5991L1ZT) failed validation: Inter-state transaction with IGST=603.0 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,309 [WARNING] converter.validator: Row 41 (Invoice: 901, GSTIN: 24AAHFS3107M1Z6) failed validation: Inter-state transaction with IGST=4214.7 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,309 [WARNING] converter.validator: Row 44 (Invoice: GPE/2543/25-26, GSTIN: 26AAHFG0858R1ZS) failed validation: Inter-state transaction with IGST=73359.0 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,309 [WARNING] converter.validator: Row 45 (Invoice: GPE/2544/25-26, GSTIN: 26AAHFG0858R1ZS) failed validation: Inter-state transaction with IGST=85298.4 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,309 [WARNING] converter.validator: Row 46 (Invoice: GPE/2552/25-26, GSTIN: 26AAHFG0858R1ZS) failed validation: Inter-state transaction with IGST=88358.4 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,309 [WARNING] converter.validator: Row 47 (Invoice: GPE/2579/25-26, GSTIN: 26AAHFG0858R1ZS) failed validation: Inter-state transaction with IGST=60825.6 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,309 [WARNING] converter.validator: Row 48 (Invoice: GPE/2640/25-26, GSTIN: 26AAHFG0858R1ZS) failed validation: Inter-state transaction with IGST=342900.0 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,310 [WARNING] converter.validator: Row 49 (Invoice: GPE/2647/25-26, GSTIN: 26AAHFG0858R1ZS) failed validation: Inter-state transaction with IGST=106801.2 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,310 [WARNING] converter.validator: Row 50 (Invoice: GPE/2683/25-26, GSTIN: 26AAHFG0858R1ZS) failed validation: Inter-state transaction with IGST=106801.2 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,310 [WARNING] converter.validator: Row 51 (Invoice: GPE/2684/25-26, GSTIN: 26AAHFG0858R1ZS) failed validation: Inter-state transaction with IGST=165437.1 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,310 [WARNING] converter.validator: Row 52 (Invoice: GPE/2832/25-26, GSTIN: 26AAHFG0858R1ZS) failed validation: Inter-state transaction with IGST=260206.2 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,310 [WARNING] converter.validator: Row 53 (Invoice: GPE/2847/25-26, GSTIN: 26AAHFG0858R1ZS) failed validation: Inter-state transaction with IGST=106801.2 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,310 [WARNING] converter.validator: Row 55 (Invoice: 969, GSTIN: 24AABFO6856D1ZD) failed validation: Inter-state transaction with IGST=6383.66 is not supported by Tally template (no IGST columns)
+2026-07-14 10:54:07,310 [INFO] converter.validator: Validation complete. Valid: 19, Errors: 26
+2026-07-14 10:54:07,310 [INFO] converter.mapper: Grouping complete. Found 19 unique invoices from 19 rows.
+2026-07-14 10:54:07,311 [INFO] converter.mapper: Mapping complete. Generated 19 rows for Tally import.
+2026-07-14 10:54:07,311 [INFO] converter.exporter: Copying template from D:\CA-RMHStaffPortal\2A-2B convertion\templates\PURCHASE IMPORT MAY.xlsx to D:\CA-RMHStaffPortal\2A-2B convertion\output\Purchase_Import_Output.xlsx...
+2026-07-14 10:54:07,373 [INFO] converter.exporter: Caching styling from first data row...
+2026-07-14 10:54:07,436 [INFO] converter.exporter: Clearing 52 sample data rows from Sheet2...
+2026-07-14 10:54:07,440 [INFO] converter.exporter: Writing 19 mapped rows to Sheet2...
+2026-07-14 10:54:07,976 [INFO] converter.exporter: Setting up the Errors worksheet...
+2026-07-14 10:54:07,977 [INFO] converter.exporter: Writing 26 error rows to Errors sheet...
+2026-07-14 10:54:08,089 [INFO] converter.exporter: Output workbook successfully saved to D:\CA-RMHStaffPortal\2A-2B convertion\output\Purchase_Import_Output.xlsx

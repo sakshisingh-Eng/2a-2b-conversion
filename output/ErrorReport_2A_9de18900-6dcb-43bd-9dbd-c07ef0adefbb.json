@@ -1,0 +1,8 @@
+[
+    {
+        "row": 0,
+        "invoice": "N/A",
+        "gstin": "N/A",
+        "error": "Failed to read file: Sheet 'B2B' not found in GSTR-2A file. Available sheets: ['Sheet1', 'Sheet2', 'Sheet3', 'Sheet4', 'Sheet5']"
+    }
+]

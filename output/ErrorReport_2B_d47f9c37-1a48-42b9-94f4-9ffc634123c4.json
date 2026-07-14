@@ -1,0 +1,32 @@
+[
+    {
+        "row": 11,
+        "invoice": "00369",
+        "gstin": "24AAACJ5315L1ZO",
+        "error": "Inter-state transaction with IGST=13755.78 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 14,
+        "invoice": "262",
+        "gstin": "27AAFFA9215L1Z9",
+        "error": "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+    },
+    {
+        "row": 27,
+        "invoice": "252601745",
+        "gstin": "24AMOPP0282F1Z1",
+        "error": "Inter-state transaction with IGST=6156.0 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 28,
+        "invoice": "252601822",
+        "gstin": "24AMOPP0282F1Z1",
+        "error": "Inter-state transaction with IGST=6190.2 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 42,
+        "invoice": "AL/25-26/1001",
+        "gstin": "24CUYPM4636G1Z4",
+        "error": "Inter-state transaction with IGST=6981.3 is not supported by Tally template (no IGST columns)"
+    }
+]

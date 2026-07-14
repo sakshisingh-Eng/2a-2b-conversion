@@ -1,0 +1,158 @@
+[
+    {
+        "row": 11,
+        "invoice": "RKG25110217",
+        "gstin": "24AACCE1602K1Z3",
+        "error": "Inter-state transaction with IGST=20.0 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 12,
+        "invoice": "RKG25110311",
+        "gstin": "24AACCE1602K1Z3",
+        "error": "Inter-state transaction with IGST=15.0 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 13,
+        "invoice": "RKG25110512",
+        "gstin": "24AACCE1602K1Z3",
+        "error": "Inter-state transaction with IGST=20.0 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 14,
+        "invoice": "RKT25110073",
+        "gstin": "24AACCE1602K1Z3",
+        "error": "Inter-state transaction with IGST=15.0 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 15,
+        "invoice": "RKT25110451",
+        "gstin": "24AACCE1602K1Z3",
+        "error": "Inter-state transaction with IGST=32.5 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 17,
+        "invoice": "2526270",
+        "gstin": "24ADXFS1837K1ZF",
+        "error": "Inter-state transaction with IGST=2402.1 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 21,
+        "invoice": "GT/184",
+        "gstin": "24AAEFV0191M1Z0",
+        "error": "Inter-state transaction with IGST=6790.68 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 22,
+        "invoice": "784/2025-26",
+        "gstin": "24ADKFS9502N1ZK",
+        "error": "Inter-state transaction with IGST=1377.0 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 24,
+        "invoice": "3319",
+        "gstin": "03AABFR7311L1ZD",
+        "error": "Inter-state transaction with IGST=6279.0 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 31,
+        "invoice": "GT/37",
+        "gstin": "24AAHFJ5991L1ZT",
+        "error": "Inter-state transaction with IGST=18000.0 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 35,
+        "invoice": "GT/741",
+        "gstin": "24ABUPD5630N1ZB",
+        "error": "Inter-state transaction with IGST=1745.03 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 38,
+        "invoice": "GT/40",
+        "gstin": "24AAHFJ5991L1ZT",
+        "error": "Inter-state transaction with IGST=576.0 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 39,
+        "invoice": "GT/41",
+        "gstin": "24AAHFJ5991L1ZT",
+        "error": "Inter-state transaction with IGST=281.0 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 40,
+        "invoice": "GT/42",
+        "gstin": "24AAHFJ5991L1ZT",
+        "error": "Inter-state transaction with IGST=603.0 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 41,
+        "invoice": "901",
+        "gstin": "24AAHFS3107M1Z6",
+        "error": "Inter-state transaction with IGST=4214.7 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 44,
+        "invoice": "GPE/2543/25-26",
+        "gstin": "26AAHFG0858R1ZS",
+        "error": "Inter-state transaction with IGST=73359.0 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 45,
+        "invoice": "GPE/2544/25-26",
+        "gstin": "26AAHFG0858R1ZS",
+        "error": "Inter-state transaction with IGST=85298.4 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 46,
+        "invoice": "GPE/2552/25-26",
+        "gstin": "26AAHFG0858R1ZS",
+        "error": "Inter-state transaction with IGST=88358.4 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 47,
+        "invoice": "GPE/2579/25-26",
+        "gstin": "26AAHFG0858R1ZS",
+        "error": "Inter-state transaction with IGST=60825.6 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 48,
+        "invoice": "GPE/2640/25-26",
+        "gstin": "26AAHFG0858R1ZS",
+        "error": "Inter-state transaction with IGST=342900.0 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 49,
+        "invoice": "GPE/2647/25-26",
+        "gstin": "26AAHFG0858R1ZS",
+        "error": "Inter-state transaction with IGST=106801.2 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 50,
+        "invoice": "GPE/2683/25-26",
+        "gstin": "26AAHFG0858R1ZS",
+        "error": "Inter-state transaction with IGST=106801.2 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 51,
+        "invoice": "GPE/2684/25-26",
+        "gstin": "26AAHFG0858R1ZS",
+        "error": "Inter-state transaction with IGST=165437.1 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 52,
+        "invoice": "GPE/2832/25-26",
+        "gstin": "26AAHFG0858R1ZS",
+        "error": "Inter-state transaction with IGST=260206.2 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 53,
+        "invoice": "GPE/2847/25-26",
+        "gstin": "26AAHFG0858R1ZS",
+        "error": "Inter-state transaction with IGST=106801.2 is not supported by Tally template (no IGST columns)"
+    },
+    {
+        "row": 55,
+        "invoice": "969",
+        "gstin": "24AABFO6856D1ZD",
+        "error": "Inter-state transaction with IGST=6383.66 is not supported by Tally template (no IGST columns)"
+    }
+]
