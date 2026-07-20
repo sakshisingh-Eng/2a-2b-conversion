@@ -7,7 +7,7 @@ from openpyxl.styles import Font, PatternFill
 
 logger = logging.getLogger("converter.exporter")
 
-WARNING_KEYWORDS = ("inter-state transaction",)
+WARNING_KEYWORDS = ("inter-state transaction", "gstin lookup failed")
 
 RED_FILL = PatternFill(start_color="FFC7CE", end_color="FFC7CE", fill_type="solid")
 YELLOW_FILL = PatternFill(start_color="FFEB9C", end_color="FFEB9C", fill_type="solid")
@@ -25,7 +25,7 @@ SUGGESTED_FIXES = {
     "duplicate invoice detected": "Check the source file for a duplicated row and remove it if erroneous.",
     "does not match expected": "Recheck CGST/SGST against the taxable value and rate for calculation errors.",
     "inter-state transaction": "Tally template has no IGST columns; this row was skipped from Sheet2.",
-    "gstin lookup failed": "Verify the GSTIN is registered and retry the lookup.",
+    "gstin lookup failed": "Party name could not be auto-resolved; row was still imported with a fallback name. Verify the GSTIN on GSTzen and correct the party name in Sheet1.",
 }
 
 def classify_error(error_text):
@@ -147,26 +147,27 @@ def export_to_excel(mapped_rows, errors, template_path, output_path):
                 if styles["number_format"]:
                     cell.number_format = styles["number_format"]
                     
-    # Setup the Errors sheet
-    logger.info("Setting up the Errors worksheet...")
-    if "Errors" in wb.sheetnames:
-        ws_err = wb["Errors"]
-        ws_err.delete_rows(1, ws_err.max_row)
-    else:
-        ws_err = wb.create_sheet("Errors")
-        
-    # Define fonts
-    bold_font = Font(name="Aptos Narrow", size=11, bold=True)
-    normal_font = Font(name="Aptos Narrow", size=11)
-    
-    # Write headers for Errors worksheet
-    headers = ["Row Number", "Invoice Number", "GSTIN", "Issue", "Severity", "Suggested Fix"]
-    ws_err.append(headers)
-    for col_idx in range(1, len(headers) + 1):
-        ws_err.cell(row=1, column=col_idx).font = bold_font
-
-    # Write error records if any
+    # Setup the Errors sheet - only present in the final workbook if errors actually exist.
     if errors:
+        logger.info("Setting up the Errors worksheet...")
+        if "Errors" in wb.sheetnames:
+            ws_err = wb["Errors"]
+            ws_err.delete_rows(1, ws_err.max_row)
+        else:
+            ws_err = wb.create_sheet("Errors")
+
+        # Define fonts
+        bold_font = Font(name="Aptos Narrow", size=11, bold=True)
+        normal_font = Font(name="Aptos Narrow", size=11)
+
+        # Write headers for Errors worksheet - full record context so every failed
+        # invoice is traceable back to the source row without reopening the input file.
+        headers = ["Row Number", "Invoice Number", "GSTIN", "Party Name", "Invoice Date",
+                   "GST Rate", "Taxable Value", "Issue", "Severity", "Suggested Fix"]
+        ws_err.append(headers)
+        for col_idx in range(1, len(headers) + 1):
+            ws_err.cell(row=1, column=col_idx).font = bold_font
+
         logger.info(f"Writing {len(errors)} error rows to Errors sheet...")
         for r_idx, err in enumerate(errors, start=2):
             severity, fill = classify_error(err["error"])
@@ -175,11 +176,15 @@ def export_to_excel(mapped_rows, errors, template_path, output_path):
             ws_err.cell(row=r_idx, column=1, value=err["row"]).font = normal_font
             ws_err.cell(row=r_idx, column=2, value=err["invoice"]).font = normal_font
             ws_err.cell(row=r_idx, column=3, value=err["gstin"]).font = normal_font
-            ws_err.cell(row=r_idx, column=4, value=err["error"]).font = normal_font
-            severity_cell = ws_err.cell(row=r_idx, column=5, value=severity)
+            ws_err.cell(row=r_idx, column=4, value=err.get("party_name") or "Party Name Not Found").font = normal_font
+            ws_err.cell(row=r_idx, column=5, value=err.get("invoice_date") or "N/A").font = normal_font
+            ws_err.cell(row=r_idx, column=6, value=err.get("rate") if err.get("rate") is not None else "N/A").font = normal_font
+            ws_err.cell(row=r_idx, column=7, value=err.get("taxable_value") if err.get("taxable_value") is not None else "N/A").font = normal_font
+            ws_err.cell(row=r_idx, column=8, value=err["error"]).font = normal_font
+            severity_cell = ws_err.cell(row=r_idx, column=9, value=severity)
             severity_cell.font = normal_font
             severity_cell.fill = fill
-            ws_err.cell(row=r_idx, column=6, value=fix).font = normal_font
+            ws_err.cell(row=r_idx, column=10, value=fix).font = normal_font
 
         # Automatically set column widths for Errors sheet
         for col in ws_err.columns:
@@ -187,8 +192,17 @@ def export_to_excel(mapped_rows, errors, template_path, output_path):
             col_letter = openpyxl.utils.get_column_letter(col[0].column)
             ws_err.column_dimensions[col_letter].width = max(max_len + 3, 12)
     else:
-        logger.info("No errors encountered. Errors worksheet is empty.")
-        
+        logger.info("No errors encountered. Omitting the Errors worksheet.")
+        if "Errors" in wb.sheetnames:
+            del wb["Errors"]
+
+    # Final workbook structure: drop the legacy sample-data "Sheet1" that ships with the
+    # template, then rename the populated "Sheet2" to "Sheet1" so the output only ever
+    # contains "Sheet1" (the converted data) and, when applicable, "Errors".
+    if "Sheet1" in wb.sheetnames and wb["Sheet1"] is not ws:
+        del wb["Sheet1"]
+    ws.title = "Sheet1"
+
     # Save the workbook
     wb.save(output_path)
     logger.info(f"Output workbook successfully saved to {output_path}")

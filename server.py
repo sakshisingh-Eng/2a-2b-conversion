@@ -18,6 +18,7 @@ from lookup.gst_lookup import lookup_gstin_batch, load_cache, is_valid_gstin
 from converter.validator import validate_records
 from converter.mapper import map_records
 from converter.exporter import export_to_excel
+from converter.reconciliation import reconcile
 
 # Initialize FastAPI
 app = FastAPI(title="GST 2A/2B to Tally Purchase Import Converter API")
@@ -81,7 +82,11 @@ def create_default_stats() -> Dict[str, Any]:
         "invalid_invoices": 0,
         "total_unique_gstins": 0,
         "validation_errors_count": 0,
-        "lookup_failures_count": 0
+        "lookup_failures_count": 0,
+        "reconciled_total_gstins": 0,
+        "reconciled_converted_gstins": 0,
+        "reconciled_errored_gstins": 0,
+        "reconciled_skipped_gstins": 0
     }
 
 def convert_single_file(
@@ -163,6 +168,31 @@ def convert_single_file(
     stats["lookup_failures_count"] = sum(
         1 for err in all_errors if "lookup failed" in err.get("error", "").lower()
     )
+
+    # 3a. Reconciliation safety net: independently re-scan the source file for every
+    # GSTIN-shaped value and confirm each one landed in either valid_records or
+    # all_errors. Anything left over is a structural parser gap - surface it in the
+    # Errors sheet instead of letting it silently vanish.
+    logger.info(f"[{file_type.upper()}] Reconciling parsed GSTINs against the source file...")
+    recon_summary, unaccounted_gstins = reconcile(input_path, records, valid_records, all_errors)
+    for gstin in unaccounted_gstins:
+        all_errors.append({
+            "row": "N/A",
+            "invoice": "UNKNOWN",
+            "gstin": gstin,
+            "party_name": "Party Name Not Found",
+            "invoice_date": "N/A",
+            "rate": None,
+            "taxable_value": None,
+            "error": "Reconciliation safety net: GSTIN found in source file but was never parsed into a record (possible structural anomaly in header/data-row detection). Please verify this invoice manually against the source file."
+        })
+    stats["reconciled_total_gstins"] = recon_summary["total_gstins_in_input"]
+    stats["reconciled_converted_gstins"] = recon_summary["converted_gstins"]
+    stats["reconciled_errored_gstins"] = recon_summary["errored_gstins"] + len(unaccounted_gstins)
+    stats["reconciled_skipped_gstins"] = 0  # by construction: unaccounted ones were just appended to all_errors above
+    if unaccounted_gstins:
+        logger.warning(f"[{file_type.upper()}] Reconciliation caught {len(unaccounted_gstins)} GSTIN(s) that the parser missed; added to Errors sheet: {unaccounted_gstins}")
+    stats["validation_errors_count"] = len(all_errors)
 
     # 4. Map to Tally Columns
     logger.info(f"[{file_type.upper()}] Mapping {len(valid_records)} validated transactions to Tally format...")

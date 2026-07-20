@@ -101,15 +101,24 @@ def validate_records(records, gst_names_cache):
             if abs(sgst - expected_half_tax) > max(1.0, expected_half_tax * 0.02):
                 row_errors.append(f"SGST {sgst} does not match expected {expected_half_tax:.2f} for taxable value {taxable_value} @ {rate}%")
 
-        # 6. Verify GSTIN lookup resolved successfully
+        # 6. Verify GSTIN lookup resolved successfully.
+        # A failed lookup is a *warning*, not a reason to exclude the invoice: the
+        # transaction still happened and must reach the Purchase Import output, just
+        # with a fallback party name and a note in the Errors sheet for manual review.
+        lookup_warning = None
         if is_valid_gstin(gstin):
-            # If the format is valid, check if it's resolved in the cache
             if gstin not in gst_names_cache or not gst_names_cache[gstin]:
-                row_errors.append("GSTIN lookup failed: Legal name could not be resolved from GSTzen")
+                lookup_warning = "GSTIN lookup failed: Legal name could not be resolved from GSTzen"
+                rec["party_name"] = rec.get("supplier_name_2a") or gstin
             else:
                 rec["party_name"] = gst_names_cache[gstin]
-                
-        # Handle validation output
+
+        # Full record context attached to every error row, so nothing in the Errors
+        # sheet is a bare "row/invoice/gstin" stub - it's traceable back to the source.
+        party_name_for_error = rec.get("party_name") or rec.get("supplier_name_2a") or "Party Name Not Found"
+
+        # Handle validation output. row_errors are hard failures that exclude the
+        # record; lookup_warning alone never excludes it.
         if row_errors:
             error_desc = "; ".join(row_errors)
             logger.warning(f"Row {row_num} (Invoice: {inv_num}, GSTIN: {gstin}) failed validation: {error_desc}")
@@ -117,10 +126,26 @@ def validate_records(records, gst_names_cache):
                 "row": row_num,
                 "invoice": inv_num if inv_num else "BLANK",
                 "gstin": gstin if gstin else "BLANK",
+                "party_name": party_name_for_error,
+                "invoice_date": inv_date if inv_date else "BLANK",
+                "rate": rate,
+                "taxable_value": taxable_value,
                 "error": error_desc
             })
         else:
             valid_records.append(rec)
+            if lookup_warning:
+                logger.warning(f"Row {row_num} (Invoice: {inv_num}, GSTIN: {gstin}) {lookup_warning}. Record kept with fallback party name.")
+                errors.append({
+                    "row": row_num,
+                    "invoice": inv_num if inv_num else "BLANK",
+                    "gstin": gstin if gstin else "BLANK",
+                    "party_name": party_name_for_error,
+                    "invoice_date": inv_date if inv_date else "BLANK",
+                    "rate": rate,
+                    "taxable_value": taxable_value,
+                    "error": lookup_warning
+                })
             
     logger.info(f"Validation complete. Valid: {len(valid_records)}, Errors: {len(errors)}")
     return valid_records, errors

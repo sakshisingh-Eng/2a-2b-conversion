@@ -6,6 +6,7 @@ from lookup.gst_lookup import lookup_gstin_batch
 from converter.validator import validate_records
 from converter.mapper import map_records
 from converter.exporter import export_to_excel
+from converter.reconciliation import reconcile
 
 # Create output directory if it doesn't exist
 os.makedirs("output", exist_ok=True)
@@ -87,7 +88,25 @@ def main():
     
     # Combine errors
     all_errors = parsing_errors + validation_errors
-    
+
+    # 5a. Reconciliation safety net: independently re-scan the source file for every
+    # GSTIN-shaped value and confirm each one landed in either valid_records or
+    # all_errors. Anything left over is a structural parser gap (like a mis-detected
+    # data-start row) - surface it in the Errors sheet instead of letting it vanish.
+    logger.info("Step 3b: Reconciling parsed GSTINs against the source file...")
+    recon_summary, unaccounted_gstins = reconcile(input_file, records, valid_records, all_errors)
+    for gstin in unaccounted_gstins:
+        all_errors.append({
+            "row": "N/A",
+            "invoice": "UNKNOWN",
+            "gstin": gstin,
+            "party_name": "Party Name Not Found",
+            "invoice_date": "N/A",
+            "rate": None,
+            "taxable_value": None,
+            "error": "Reconciliation safety net: GSTIN found in source file but was never parsed into a record (possible structural anomaly in header/data-row detection). Please verify this invoice manually against the source file."
+        })
+
     # 6. Map valid records to Tally columns
     logger.info("Step 4: Mapping valid records to Tally columns...")
     mapped_rows = map_records(valid_records)
@@ -110,6 +129,12 @@ def main():
     logger.info(f"Total errors recorded:     {len(all_errors)}")
     logger.info(f"Output File generated:    {output_path}")
     logger.info(f"Conversion Logs saved to:  output/conversion.log")
+    logger.info("------------------------------------------")
+    logger.info("RECONCILIATION REPORT (GSTIN-level)")
+    logger.info(f"Total GSTINs in input file:      {recon_summary['total_gstins_in_input']}")
+    logger.info(f"Successfully converted GSTINs:   {recon_summary['converted_gstins']}")
+    logger.info(f"GSTINs moved to Errors sheet:    {recon_summary['errored_gstins']}")
+    logger.info(f"GSTINs skipped (must be 0):      {recon_summary['skipped_gstins']}")
     logger.info("==========================================")
 
 if __name__ == "__main__":

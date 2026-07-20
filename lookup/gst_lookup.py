@@ -92,24 +92,31 @@ async def _scrape_gstzen_batch(gstins):
             logger.info("Waiting for results table to load...")
             await page.wait_for_selector("table", timeout=30000)
             
-            # Parse rows from the results table
+            # Parse rows from the results table. Guard each row individually so that one
+            # malformed/unexpected row (e.g. a summary row, or a layout column GSTzen adds)
+            # never aborts parsing of the rest of the batch and silently loses valid GSTINs.
             rows = await page.query_selector_all("table tr")
+            gstins_set = set(gstins)
             for row in rows:
-                cols = await row.query_selector_all("td")
-                if not cols or len(cols) < 2:
-                    continue  # Skip header row or incomplete rows
-                
-                gstin_val = (await cols[0].inner_text()).strip().upper()
-                legal_name_val = (await cols[1].inner_text()).strip()
-                valid_status = (await cols[2].inner_text()).strip().lower()
-                
-                if gstin_val in gstins:
-                    if valid_status == "yes" and legal_name_val:
-                        cleaned_name = clean_company_name(legal_name_val)
-                        results[gstin_val] = cleaned_name
-                        logger.info(f"Resolved: {gstin_val} -> {cleaned_name}")
-                    else:
-                        logger.warning(f"GSTIN {gstin_val} is reported as invalid or has empty name on GSTzen.")
+                try:
+                    cols = await row.query_selector_all("td")
+                    if not cols or len(cols) < 3:
+                        continue  # Skip header row or incomplete rows
+
+                    gstin_val = (await cols[0].inner_text()).strip().upper()
+                    legal_name_val = (await cols[1].inner_text()).strip()
+                    valid_status = (await cols[2].inner_text()).strip().lower()
+
+                    if gstin_val in gstins_set:
+                        if valid_status == "yes" and legal_name_val:
+                            cleaned_name = clean_company_name(legal_name_val)
+                            results[gstin_val] = cleaned_name
+                            logger.info(f"Resolved: {gstin_val} -> {cleaned_name}")
+                        else:
+                            logger.warning(f"GSTIN {gstin_val} is reported as invalid or has empty name on GSTzen.")
+                except Exception as row_err:
+                    logger.warning(f"Skipping unparsable result row: {row_err}")
+                    continue
         
         except Exception as e:
             logger.error(f"Error during GSTzen scraping: {e}")
@@ -118,10 +125,24 @@ async def _scrape_gstzen_batch(gstins):
             
     return results
 
+# GSTzen's validator page is a single form submission per page load; batching too many
+# GSTINs into one request makes the page slower to render and more likely to hit the
+# fixed 30s table timeout, which previously failed the *entire* batch (including
+# perfectly valid GSTINs) as one unit. Chunking bounds that blast radius.
+MAX_CHUNK_SIZE = 25
+
+
+def _chunk(items, size):
+    for i in range(0, len(items), size):
+        yield items[i:i + size]
+
+
 def lookup_gstin_batch(gstins, max_retries=2):
     """
     Look up a list of GSTINs. Check cache first, then query GSTzen for missing ones.
     Retries failed/unresolved lookups up to `max_retries` times before giving up.
+    Queries are chunked so that a slow/failed request for one subset of GSTINs
+    cannot take down lookups for an otherwise-healthy subset.
     Returns a dictionary of {GSTIN: Legal Name}.
     """
     # Normalize input
@@ -146,30 +167,36 @@ def lookup_gstin_batch(gstins, max_retries=2):
         else:
             missing_gstins.append(gstin)
 
-    # 2. Query missing GSTINs in batch, retrying whatever remains unresolved
+    # 2. Query missing GSTINs in bounded-size chunks, retrying whatever remains
+    # unresolved within each chunk before moving on.
     missing_gstins = list(set(missing_gstins))
-    attempt = 0
-    while missing_gstins and attempt <= max_retries:
-        attempt += 1
-        logger.info(f"Cache miss. Querying {len(missing_gstins)} GSTINs from GSTzen (attempt {attempt}/{max_retries + 1})...")
+    still_unresolved = []
 
-        try:
-            scraped_results = asyncio.run(_scrape_gstzen_batch(missing_gstins))
-        except Exception as e:
-            logger.error(f"Lookup attempt {attempt} failed entirely: {e}")
-            scraped_results = {}
+    for chunk in _chunk(missing_gstins, MAX_CHUNK_SIZE):
+        chunk_missing = list(chunk)
+        attempt = 0
+        while chunk_missing and attempt <= max_retries:
+            attempt += 1
+            logger.info(f"Cache miss. Querying {len(chunk_missing)} GSTINs from GSTzen (attempt {attempt}/{max_retries + 1})...")
 
-        for gstin, name in scraped_results.items():
-            results[gstin] = name
-            cache[gstin] = name
+            try:
+                scraped_results = asyncio.run(_scrape_gstzen_batch(chunk_missing))
+            except Exception as e:
+                logger.error(f"Lookup attempt {attempt} failed entirely: {e}")
+                scraped_results = {}
 
-        missing_gstins = [g for g in missing_gstins if g not in scraped_results]
+            for gstin, name in scraped_results.items():
+                results[gstin] = name
+                cache[gstin] = name
 
-        if missing_gstins and attempt <= max_retries:
-            logger.warning(f"{len(missing_gstins)} GSTINs still unresolved, will retry: {missing_gstins}")
+            chunk_missing = [g for g in chunk_missing if g not in scraped_results]
 
-    if missing_gstins:
-        logger.error(f"Giving up on {len(missing_gstins)} GSTINs after {attempt} attempts: {missing_gstins}")
+            if chunk_missing and attempt <= max_retries:
+                logger.warning(f"{len(chunk_missing)} GSTINs still unresolved, will retry: {chunk_missing}")
+
+        if chunk_missing:
+            logger.error(f"Giving up on {len(chunk_missing)} GSTINs after {attempt} attempts: {chunk_missing}")
+            still_unresolved.extend(chunk_missing)
 
     if cache:
         save_cache(cache)

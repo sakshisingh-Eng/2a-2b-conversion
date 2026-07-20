@@ -1,6 +1,16 @@
 import pandas as pd
+import re
 import logging
 from datetime import datetime
+
+GSTIN_LIKE = re.compile(r"^[0-9]{2}[A-Z0-9]{13}$")
+
+
+def _looks_like_gstin(val):
+    if pd.isna(val):
+        return False
+    s = str(val).strip().upper()
+    return len(s) == 15 and bool(GSTIN_LIKE.match(s))
 
 logger = logging.getLogger("converter.parser_2b")
 
@@ -51,13 +61,17 @@ def _find_header_columns(df):
                 column_map[field] = col_idx
                 break
 
-    # Data starts at the first row where the "gstin" column contains a plausible GSTIN-like value.
+    # Data starts at the first row where the "gstin" column contains a plausible
+    # GSTIN-like value. Scan from the very top of the sheet (row 0), not from
+    # `max_scan_rows` onward: some GSTR-2B exports have a header block shorter than
+    # the scan window (e.g. only 6 rows), so genuine data rows can start before
+    # `max_scan_rows` and were previously skipped entirely by starting the search
+    # there, silently dropping those invoices before the parser even emitted them.
     data_start_row = max_scan_rows
     gstin_col = column_map.get("gstin")
     if gstin_col is not None:
-        for row_idx in range(max_scan_rows, len(df)):
-            val = df.iat[row_idx, gstin_col]
-            if pd.notna(val) and len(str(val).strip()) >= 15:
+        for row_idx in range(len(df)):
+            if _looks_like_gstin(df.iat[row_idx, gstin_col]):
                 data_start_row = row_idx
                 break
 
