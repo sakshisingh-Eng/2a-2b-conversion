@@ -1,5 +1,48 @@
 [
     {
+        "job_id": "49809355-87e1-43aa-86d2-6cb111c651b7",
+        "date": "2026-07-20 13:25:01",
+        "type": "2B",
+        "input_file": "input_2b_49809355-87e1-43aa-86d2-6cb111c651b7.xlsx",
+        "output_file_2a": null,
+        "output_file_2b": "Purchase_Import_Output.xlsx",
+        "log_file": "ConversionLog_49809355-87e1-43aa-86d2-6cb111c651b7.log",
+        "error_report_file_2a": null,
+        "error_report_file_2b": "ErrorReport_2B_49809355-87e1-43aa-86d2-6cb111c651b7.json",
+        "processing_time": "0.97s",
+        "status": "completed",
+        "stats_2a": {
+            "invoices_processed": 0,
+            "lookups_completed": 0,
+            "cache_hits": 0,
+            "cache_misses": 0,
+            "valid_invoices": 0,
+            "invalid_invoices": 0,
+            "total_unique_gstins": 0,
+            "validation_errors_count": 0,
+            "lookup_failures_count": 0,
+            "reconciled_total_gstins": 0,
+            "reconciled_converted_gstins": 0,
+            "reconciled_errored_gstins": 0,
+            "reconciled_skipped_gstins": 0
+        },
+        "stats_2b": {
+            "invoices_processed": 27,
+            "lookups_completed": 21,
+            "cache_hits": 21,
+            "cache_misses": 0,
+            "valid_invoices": 27,
+            "invalid_invoices": 0,
+            "total_unique_gstins": 21,
+            "validation_errors_count": 0,
+            "lookup_failures_count": 0,
+            "reconciled_total_gstins": 21,
+            "reconciled_converted_gstins": 21,
+            "reconciled_errored_gstins": 0,
+            "reconciled_skipped_gstins": 0
+        }
+    },
+    {
         "job_id": "f4065338-e1e9-4f87-bcb0-e48a951827a3",
         "date": "2026-07-20 13:12:34",
         "type": "2B",
